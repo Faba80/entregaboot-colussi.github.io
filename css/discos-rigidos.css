@@ -6,5 +6,8 @@ nav.bg-propio {
     font-family: sans-serif;
     font-size: larger; }
 
+.container .card-header {
+    color: white;
+}
 
     
