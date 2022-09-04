@@ -12,18 +12,27 @@ nav.bg-propio {
     
 }
 
+
+
 .card {
     border: none;
+    
     
 }
 
 .bg-rrss {
     list-style: none;
+    width: auto;
+    list-style: none;
+    border: none;
+    margin-bottom: 10px;
+    
 }
 
 .btn-fa  {
     border: none;
     background: transparent;
+    
 }
 
 .btn-insta {
