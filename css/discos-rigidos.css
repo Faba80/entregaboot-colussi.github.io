@@ -42,6 +42,7 @@ nav.bg-propio {
     border: none;
     background: transparent;
     margin-top: 10px;
+    
 }
 
 .bi-instagram {
@@ -103,7 +104,6 @@ nav.bg-propio {
     -webkit-transform: scale(1.4);
     transform: scale(1.4);
 }
-
 
 
 .bi-mail {
