@@ -4,103 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Pestaña Browser-->
-    <title>Memorias</title>
-    <!--Favicon-->
-    <link rel="icon" href="../img/Favicon.png">
-    <!--CSS Propio-->
-    <link rel="stylesheet" href="../css/memorias.css">
     <!-- CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--Favicon-->
+    <link rel="icon" href="../img/Favicon.png">
+    <!--SEO-->
+    <title>Memorias</title>
+    <meta name="description" content="Venta de insumos informáticos -- Asesoramiento técnico -- 15 años de experiencia y confiabilidad nos avalan">
+    <meta name="keywords" content="computadoras, notebooks, procesadores, discos rígidos, servicio técnico, redes wifi">        
+    <!--CSS Propio-->
+    <link rel="stylesheet" href="../css/memorias.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap" rel="stylesheet">    
 </head>
 
 <body class="d-flex flex-column min-vh-100">
 
-    <!-- Menú de navegación-->
+   <header>
     <nav class="navbar navbar-expand-lg bg-propio">
-        <div class="container-fluid">
-            <!--Logo Principal-->
-            <a class="navbar-brand" href="../index.html"><img src="../img/Logop Fabian Colussi Header.png" alt="Logo FC"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Productos
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark bg-menu">
-                            <li><a class="dropdown-item" href="./procesadores.html">Procesadores</a></li>
-                            <li><a class="dropdown-item" href="./motherboards.html">Motherboards</a></li>
-                            <li><a class="dropdown-item" href="./discos-rigidos.html">Discos Rígidos</a></li>
-                            <li><a class="dropdown-item" href="./memorias.html">Memorias</a></li>
-                            <li><a class="dropdown-item" href="./monitores.html">Monitores</a></li>
-                            <li><a class="dropdown-item" href="./vga.html">Placas De Video</a></li>
-                            <li><a class="dropdown-item" href="./notebooks.html">Notebooks</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2 bg-light" type="search" placeholder="" aria-label="Search">
-                    <button class="btn bg-light" type="submit">Buscar</button>
-                </form>
-            </div>
-        </div>
-    </nav>
+      <div class="container-fluid">
+         <h1>
+          <a class="navbar-brand" href="../index.html"><img src="../img/Logop Fabian Colussi Header.png" alt="Logo FC"></a>
+         </h1>          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          Productos
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark bg-menu">
+                          <li><a class="dropdown-item" href="./procesadores.html">Procesadores</a></li>
+                          <li><a class="dropdown-item" href="./motherboards.html">Motherboards</a></li>
+                          <li><a class="dropdown-item" href="./discos-rigidos.html">Discos Rígidos</a></li>
+                          <li><a class="dropdown-item" href="./memorias.html">Memorias</a></li>
+                          <li><a class="dropdown-item" href="./monitores.html">Monitores</a></li>
+                          <li><a class="dropdown-item" href="./vga.html">Placas De Video</a></li>
+                          <li><a class="dropdown-item" href="./notebooks.html">Notebooks</a></li>
+                      </ul>
+                  </li>
+              </ul>
+              <form class="d-flex" role="search">
+                  <input class="form-control me-2 bg-light" type="search" placeholder="" aria-label="Search">
+                  <button class="btn bg-light" type="submit">Buscar</button>
+              </form>
+          </div>
+      </div>
+  </nav>
+
+   </header> 
+    
 
     <!--Productos-->
 
-    <div class="container bg-tarjetas mt-4 py-3">
+    <div class="container bg-tarjetas mt-5 py-3">
 
         <div class="row g-3">
     
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="card text-center">
+            <div class="card text-center border border-3 border-secondary">
               <h5 class="card-header bg-secondary">Kingston DDR4 8 GB</h5>
               <img src="../img/Memorias/memoria-pc-fury-ddr4-4gb-2666-best-negra-cl16_2163196_md.jpg" class="card-img-top" alt="ddr4 8 gb">
               <div class="card-body">
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, magnam.</p>            
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, magnam.</p>
+                <a href="http://www.msi.com" target="_blank" class="btn btn-outline-secondary btn-md">Más Info</a>              
               </div>
             </div>
           </div>    
     
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="card text-center">
+            <div class="card text-center border border-3 border-secondary">
               <h5 class="card-header bg-secondary">Kingston DDR4 16 GB</h5>
               <img src="../img/Memorias/memoria-pc-fury-ddr4-4gb-2666-best-negra-cl16_2163196_md.jpg" class="card-img-top" alt="ddr4 16 gb">
               <div class="card-body">
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, adipisci?</p>            
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, adipisci?</p> 
+                <a href="http://www.msi.com" target="_blank" class="btn btn-outline-secondary btn-md">Más Info</a>             
               </div>
             </div>
           </div>
     
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="card text-center">
+            <div class="card text-center border border-3 border-secondary">
               <h5 class="card-header bg-secondary">Kingston DDR5 16 GB</h5>
               <img src="../img/Memorias/memoria-pc-fury-ddr5-16gb-5200-beast-16gbit_2166107_md.jpg" class="card-img-top" alt="ddr5 16 gb">
               <div class="card-body">
-                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, officia!</p>            
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, officia!</p>
+                <a href="http://www.msi.com" target="_blank" class="btn btn-outline-secondary btn-md">Más Info</a>              
               </div>
             </div>
           </div>
     
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="card text-center">
+            <div class="card text-center border border-3 border-secondary">
               <h5 class="card-header bg-secondary">Kingston DDR5 32 GB</h5>
               <img src="../img/Memorias/memoria-pc-fury-ddr5-16gb-5200-beast-16gbit_2166107_md.jpg" class="card-img-top" alt="ddr5 32 gb">
               <div class="card-body">
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, nostrum?</p>            
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, nostrum?</p>
+                <a href="http://www.msi.com" target="_blank" class="btn btn-outline-secondary btn-md">Más Info</a>              
               </div>
             </div>
           </div>
